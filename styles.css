@@ -18,11 +18,12 @@ html{
 
 .footer{
     display: flexbox;
+    justify-content: center;
     background-color: #e5e5e5;
     padding: 0.5em;
 }
 
-.nav-list{
+.nav-list-item{
     background-color: #808080;
     line-height: 2em;
     margin-bottom: 0.5em;
@@ -39,3 +40,19 @@ html{
     font-weight: 700;
     font-size: 1.125rem;
 }
+
+.section{
+    font-size: 1.25em;
+    line-height: 1.75em;
+}
+
+.news{
+    padding: 0.5em;
+}
+
+.section__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
