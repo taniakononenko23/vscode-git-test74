@@ -64,6 +64,11 @@ html{
     margin-bottom: 0.5em;
 }
 
+.body{
+    display: flex;
+    height: 100vh;
+}
+
 .units-list{
     line-height: 1.75em;
 }
