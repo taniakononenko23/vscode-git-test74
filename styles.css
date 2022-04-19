@@ -54,14 +54,18 @@ html{
     justify-content: center;
     text-align: center;
     font-size: 5vh;
-    line-height: 1.75em;
 }
 
 .nav-list-item{
     background-color:#808080;
     color: white;
     height: 2em;
+    line-height: 2em;
     margin-bottom: 0.5em;
+}
+
+.units-list{
+    line-height: 1.75em;
 }
 
 .nav-list-link{
