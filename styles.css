@@ -10,33 +10,23 @@ html{
 
 .header{
     color: white;
-    background-image: linear-gradient(60deg, red, orange );
+    background-image: linear-gradient(60deg, red, orange);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
     display: flex;
     justify-content: center;
-    text-align: center;
-}
-
-.nav-list-link{
-    text-decoration: none;
-    color: white;
-}
-
-.nav-list-item{
-    list-style-type: none;
-    background-color: #808080;
-    line-height: 2em;
-    margin-bottom: 0.5em;
+    background-color: #e5e5e5;
+    padding: 0.5em;
+    margin: 0 auto;
 }
 
 .navigation{
-    width: 20%;
+    width: 20% 60% 20%;
     padding: 0.5em;
-}
-
-.section__header{
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 
 .section{
@@ -45,16 +35,26 @@ html{
 }
 
 .css-units{
-    background-color: #e5e5e5;
     color: #8b0000;
+    background-color: #e5e5e5;
     font-weight: 700;
     font-size: 1.125em;
 }
 
-.footer {
-    clear: both;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #e5e5e5;
-    padding: 0.5em;
+.section__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list-item{
+    background-color: #808080;
+    line-height: 2em;
+    margin-bottom: 0.5em;
+    list-style-type: none;
+}
+
+.nav-list-link{
+    text-decoration: none;
+    color: white;
 }
