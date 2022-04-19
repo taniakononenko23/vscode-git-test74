@@ -24,6 +24,7 @@ html{
 
 .main{
     display: flex;
+    flex-grow: 1;
 }
 
 .navigation{
@@ -66,7 +67,7 @@ html{
 
 .body{
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .units-list{
