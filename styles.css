@@ -10,51 +10,31 @@ html{
 
 .header{
     color: white;
-    background-image: linear-gradient(60deg, red, orange);
-     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer{
+    background-image: linear-gradient(60deg, red, orange );
     display: flex;
     justify-content: center;
-    background-color: #e5e5e5;
-    padding: 0.5em;
-    margin: 0 auto;
-}
-
-.navigation{
-    width: 20% 60% 20%;
-    padding: 0.5em;
-}
-
-.section{
-    font-size: 1.25em;
-    line-height: 1.75em;
-}
-
-.css-units{
-    color: #8b0000;
-    background-color: #e5e5e5;
-    font-weight: 700;
-    font-size: 1.125em;
-}
-
-.section__header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-list-item{
-    background-color: #808080;
-    line-height: 2em;
-    margin-bottom: 0.5em;
-    list-style-type: none;
+    text-align: center;
 }
 
 .nav-list-link{
     text-decoration: none;
     color: white;
+    padding: 0.5em;
+}
+
+.nav-list-item{
+    list-style-type: none;
+    background-color: #808080;
+    line-height: 2em;
+    margin-bottom: 0.5em;
+}
+
+.navigation{
+    width: 20%;
+    padding: 0.5em;
+}
+
+.section{
+    width: 60%;
+    padding: 0.5em;
 }
